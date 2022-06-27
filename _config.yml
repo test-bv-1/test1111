@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Aviator
-description: Jekyll template for API documentation.
+title: BV
+description: BV API documentation.
 url: https://example.com
 google_analytics_key:
 permalink: pretty
@@ -15,7 +15,7 @@ timezone: Etc/UTC
 
 collections:
   documentation:
-    title: Documentation
+    title: Websocket 行情推送
     position_number: 1
   api:
     title: APIs
@@ -36,7 +36,7 @@ defaults:
       layout: default
   -
     scope:
-      type: "documentation"
+      type: "market"
     values:
       _hide_content: true
   -
