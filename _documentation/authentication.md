@@ -12,12 +12,13 @@ content_markdown: |-
   Nothing will work unless you include this API key
   {: .error}
 
-
 right_code_blocks:
- - code_block: |2-
+- code_block: |2-
   {
   "id": 3,
-  "status": "deleted"
+  "title": "The Book Thief",
+  "score": 4.3,
+  "dateAdded": "5/1/2015"
   }
   title: Response
   language: json
