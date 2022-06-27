@@ -14,7 +14,7 @@ baseurl:
 timezone: Etc/UTC
 
 collections:
-  documentation:
+  market:
     title: Websocket 行情推送
     position_number: 1
   api:
