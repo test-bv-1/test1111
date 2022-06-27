@@ -11,4 +11,14 @@ content_markdown: |-
 
   Nothing will work unless you include this API key
   {: .error}
+
+
+right_code_blocks:
+ - code_block: |2-
+  {
+  "id": 3,
+  "status": "deleted"
+  }
+  title: Response
+  language: json
 ---
