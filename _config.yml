@@ -38,7 +38,6 @@ defaults:
     scope:
       type: "market"
     values:
-      _hide_content: true
   -
     scope:
       type: "api"
