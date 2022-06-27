@@ -10,16 +10,15 @@ content_markdown: |-
   Add the API key to all requests as a GET parameter.
 
   Nothing will work unless you include this API key
-  {: .error}
 
 right_code_blocks:
-- code_block: |2-
-  {
-  "id": 3,
-  "title": "The Book Thief",
-  "score": 4.3,
-  "dateAdded": "5/1/2015"
-  }
+ - code_block: |-
+   {
+   "id": 3,
+   "title": "The Book Thief",
+   "score": 4.3,
+   "dateAdded": "5/1/2015"
+   }
   title: Response
   language: json
 ---
