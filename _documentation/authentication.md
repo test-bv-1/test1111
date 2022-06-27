@@ -11,12 +11,4 @@ content_markdown: |-
 
   Nothing will work unless you include this API key
   {: .error}
-right_code_blocks:
-  - code_block: |-
-    {
-    "error": true,
-    "message": "error message here"
-    }
-    title:JSON
-    language:json
 ---
