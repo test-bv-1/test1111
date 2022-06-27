@@ -13,10 +13,10 @@ content_markdown: |-
 
 right_code_blocks:
   - code_block: |-
-    {
-      "error": true,
-      "message": "Book doesn't exist"
-     }
+      {
+        "error": true,
+        "message": "Book doesn't exist"
+      }
     title: Response
     language: json
 ---
