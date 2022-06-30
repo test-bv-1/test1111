@@ -17,7 +17,7 @@ right_code_blocks:
       "symbol": "BTC/USDT",
       "type": "INDEX_PRICE",
       "data": "40658.981000000",
-       "ts": 1650352557873
+      "ts": 1650352557873
     }
     title: 增量回执
     language: json
