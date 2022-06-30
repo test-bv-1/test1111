@@ -3,9 +3,6 @@ title: test
 position_number: 1.1
 type:
 description:
-parameters:
-  - name: score
-    content: The book's score between 0 and 5
 content_markdown: >-
   Websocket 行情推送
 
