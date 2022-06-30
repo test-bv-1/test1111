@@ -26,6 +26,8 @@
 		<header>
 
 
+			<div class="header">
+
 
 			<div class="flex_box">
 				<a href="https://www.binance.com/en/" class="LG" id="LG"><img src="images/logo.svg" class="logo" alt="Logo"></a>
@@ -45,7 +47,7 @@
 				</div>
 			</div>
 			<a href="/apidocs/delivery/cn/" class="lang" id="lang_box" style="display: block;">简体中文</a>
-
+			</div>
 
 <!--			<h1>-->
 <!--				<button type="button" class="open-nav" id="open-nav"></button>-->
@@ -57,11 +59,11 @@
 <!--				<input type="submit" value="Search" style="display: none;">-->
 <!--			</form>-->
 
-
+			{% include sidebar.html %}
 
 
 		</header>
-		{% include sidebar.html %}
+
 		<div class="main">
 			{{ content }}
 		</div>
