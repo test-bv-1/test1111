@@ -1,41 +1,17 @@
 ---
-title: Websocket 行情推送
-position_number: 1.1
-type:
-description:
+title: 
+position_number:
+parameters:
+  - name:
+    content:
 content_markdown: |-
-  &nbsp;
-
-  * 本篇所列出的所有wss接口，有如下连接方式：
-    * 连接方式：
-    * Base Url：**wss://xxx.com/**
-    * URL格式为&nbsp;**/usdt**
+  fdsfdsafdsad
 left_code_blocks:
-  - code_block: |-
-      $.post("http://api.myapp.com/books/", {
-        "token": "YOUR_APP_KEY",
-        "title": "The Book Thief",
-        "score": 4.3
-      }, function(data) {
-        alert(data);
-      });
-    title: jQuery
-    language: javascript
+  - code_block:
+    title:
+    language:
 right_code_blocks:
-  - code_block: |-
-      {
-        "id": 3,
-        "title": "The Book Thief",
-        "score": 4.3,
-        "dateAdded": "5/1/2015"
-      }
-    title: Response
-    language: json
+  - code_block:
+    title:
+    language:
 ---
-
-Websocket 行情推送
-
-* 本篇所列出的所有wss接口，有如下连接方式：
-  * 连接方式：
-  * Base Url：**wss://xxx.com/**
-  * URL格式为&nbsp;**/usdt**
