@@ -1,7 +1,7 @@
 ---
 title: test
 position_number: 1.1
-type: get
+type:
 description: Create Book
 parameters:
   - name: title
@@ -50,3 +50,4 @@ right_code_blocks:
     language: json
 ---
 
+mknjknkjnkjnjknkj
