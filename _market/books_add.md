@@ -2,10 +2,8 @@
 title: test
 position_number: 1.1
 type:
-description: Create Book
+description:
 parameters:
-  - name: title
-    content: The title for the book
   - name: score
     content: The book's score between 0 and 5
 content_markdown: >-
