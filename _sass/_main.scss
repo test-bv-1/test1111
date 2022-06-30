@@ -294,6 +294,7 @@ hr {
 }
 
 .doc-content {
+	word-wrap: break-word;
 	border: 0;
 	border-bottom: 1px solid transparent;
 	border-image: linear-gradient(to right,	#eee 0%,#eee 60%,#333333 60%);
