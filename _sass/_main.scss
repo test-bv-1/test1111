@@ -3,6 +3,11 @@ html, body {
 	margin: 0;
 }
 
+
+
+*{
+	box-sizing: border-box;
+}
 body, .main {
 	box-sizing: border-box;
 	min-height: 100vh;
