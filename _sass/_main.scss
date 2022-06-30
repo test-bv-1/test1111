@@ -167,7 +167,7 @@ dl dd:after {
 }
 
 .sidebar {
-	padding: 20px 20px 0 20px;
+	padding: 80px 20px 0 20px;
 	white-space:nowrap;
 	overflow-y: auto;
 
@@ -244,6 +244,7 @@ h3 .endpoint {
 
 .main {
 	margin: 0 0 0 $nav-width;
+	padding-top: 60px;
 	border-left: 1px solid #eee;
 	h6 {
 		font-size: 1.01em;
