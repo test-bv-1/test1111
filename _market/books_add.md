@@ -1,18 +1,14 @@
 ---
-title: /books
+title: test
 position_number: 1.1
-type: post
+type: get
 description: Create Book
 parameters:
   - name: title
     content: The title for the book
   - name: score
     content: The book's score between 0 and 5
-content_markdown: |-
-  The book will automatically be added to your reading list
-  {: .success}
-
-  Adds a book to your collection.
+content_markdown: fdsaf&nbsp;
 left_code_blocks:
   - code_block: |-
       $.post("http://api.myapp.com/books/", {
@@ -34,13 +30,6 @@ right_code_blocks:
       }
     title: Response
     language: json
-  - code_block: |-
-      {
-        "error": true,
-        "message": "Invalid score"
-      }
-    title: Error
-    language: json
 ---
 
-
+Create BookCreate BookCreate BookCreate Book
