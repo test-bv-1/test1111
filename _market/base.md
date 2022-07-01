@@ -6,8 +6,7 @@ description:
 content_markdown: |-
   &nbsp;
 
-  * 本篇所列出的所有wss接口，有如下连接方式：
-    * 连接方式：
+  * 连接方式如下：
     * Base Url：**wss://xxx.com/**
     * URL格式为&nbsp;**/usdt**
 right_code_blocks:
@@ -22,9 +21,11 @@ right_code_blocks:
     language: json
 ---
 
-Websocket 行情推送
-
-* 本篇所列出的所有wss接口，有如下连接方式：
-  * 连接方式：
+* 连接方式如下：
   * Base Url：**wss://xxx.com/**
   * URL格式为&nbsp;**/usdt**
+
+* 心跳规则：
+  * 心跳次数/10s
+  * 客户端发送：\{"event":"ping"\}
+  * 服务端回执：\{"event":"pong"\}
