@@ -22,11 +22,7 @@ right_code_blocks:
   - code_block: "{\r\n  \"code\": 1,\r\n  \"data\": {\r\n    \"symbol\": \"ETH/USDT\",//币对\r\n    \"indexPrice\": 2902.912//指数价格\r\n  },\r\n  \"message\": \"SUCCESS\"\r\n}"
     title: 响应
     language: json
-  - code_block: |-
-      {
-        "error": true,
-        "message": "Invalid offset"
-      }
+  - code_block: "{\r\n  \"code\": 0,\r\n  \"data\": null,\r\n  \"message\": \"FAILURE\"\r\n}"
     title: Error
     language: json
 ---
