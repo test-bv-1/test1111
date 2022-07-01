@@ -4,14 +4,12 @@ position_number: 3
 parameters:
   - name:
     content:
-content_markdown: |-
-  | 指数推送示例 |  |
-  | --- | --- |
-  | 请求订阅 | {"event":"SUB","type":"INDEX_PRICE","symbol":"BTC/USDT"} |
-  | 订阅回执 | {"code":1,"desc":"success","topic":{"event":"SUB","type":"INDEX_PRICE_ALL","symbols":"BTC/USDT,ETH/USDT"}} |
-  | 取消订阅 | {"event":"UNSUB","type":"INDEX_PRICE","symbol":"BTC/USDT"} |
- 
+content_markdown:
 right_code_blocks:
+  - code_block: >-
+      {"code":1,"desc":"success","topic":{"event":"SUB","type":"INDEX_PRICE_ALL","symbols":"BTC/USDT,ETH/USDT"}}
+    title: 订阅回执
+    language: json
   - code_block: |-
       {
         "symbol": "BTC/USDT",
@@ -29,3 +27,4 @@ left_code_blocks:
     title: 取消订阅
     language: json
 ---
+
