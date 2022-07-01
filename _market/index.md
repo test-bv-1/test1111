@@ -21,4 +21,11 @@ right_code_blocks:
       }
     title: 增量回执
     language: json
+left_code_blocks:
+  - code_block: "{\n\t\"event\": \"SUB\",\n\t\"type\": \"INDEX_PRICE\",\n\t\"symbol\": \"BTC/USDT\"\n}"
+    title: 请求订阅
+    language: json
+  - code_block: "{\n\t\"event\": \"UNSUB\",\n\t\"type\": \"INDEX_PRICE\",\n\t\"symbol\": \"BTC/USDT\"\n}"
+    title: 取消订阅
+    language: json
 ---
