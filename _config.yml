@@ -37,6 +37,7 @@ defaults:
   -
     scope:
       type: "market"
+      layout: default
     values:
   -
     scope:
