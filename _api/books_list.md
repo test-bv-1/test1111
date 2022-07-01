@@ -1,61 +1,28 @@
 ---
-title: /books
-position_number: 1.0
+title: 指数价格
+position_number: 3
 type: get
-description: List all books
+description:
 parameters:
-  - name: offset
-    content: Offset the results by this amount
   - name: limit
     content: Limit the number of books returned
 content_markdown: |-
-  This call will return a maximum of 100 books
-  {: .info }
+  * **URL**：/open/market/api/v1/platform/usdt/index?symbol=ETH/USDT
+  * **Method**：GET
 
-  Lists all the photos you have access to. You can paginate by using the parameters listed above.
+  请求参数
+
+  | 参数 | 类型 | 是否必填 | 描述 |
+  | symbol | String | true | 币对 |
 left_code_blocks:
-  - code_block: |-
-      $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
-        alert(data);
-      });
-    title: jQuery
-    language: javascript
-  - code_block: |-
-      r = requests.get("http://api.myapp.com/books/", token="YOUR_APP_KEY")
-      print r.text
-    title: Python
-    language: python
-  - code_block: |-
-      var request = require("request");
-      request("http://api.myapp.com/books?token=YOUR_APP_KEY", function (error, response, body) {
-      if (!error && response.statusCode == 200) {
-        console.log(body);
-      }
-    title: Node.js
-    language: javascript
-  - code_block: |-
-      curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
+  - code_block: curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
     title: Curl
     language: bash
 right_code_blocks:
-  - code_block: |2-
-      [
-        {
-          "id": 1,
-          "title": "The Hunger Games",
-          "score": 4.5,
-          "dateAdded": "12/12/2013"
-        },
-        {
-          "id": 1,
-          "title": "The Hunger Games",
-          "score": 4.7,
-          "dateAdded": "15/12/2013"
-        },
-      ]
-    title: Response
+  - code_block: "{\r\n  \"code\": 1,\r\n  \"data\": {\r\n    \"symbol\": \"ETH/USDT\",//币对\r\n    \"indexPrice\": 2902.912//指数价格\r\n  },\r\n  \"message\": \"SUCCESS\"\r\n}"
+    title: 响应
     language: json
-  - code_block: |2-
+  - code_block: |-
       {
         "error": true,
         "message": "Invalid offset"
