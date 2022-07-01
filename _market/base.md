@@ -10,18 +10,8 @@ content_markdown: |-
 
   * 心跳规则：
     * 心跳次数/10s
-    * 客户端发送：\{"event":"ping"\}
-    * 服务端回执：\{"event":"pong"\}
-right_code_blocks:
-  - code_block: |-
-      {
-        "id": 3,
-        "title": "The Book Thief",
-        "score": 4.3,
-        "dateAdded": "5/1/2015"
-      }
-    title: Response
-    language: json
+    * 客户端发送：**\{"event":"ping"\}**
+    * 服务端回执：**\{"event":"pong"\}**
 ---
 
 * 连接方式如下：
