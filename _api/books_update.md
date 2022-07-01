@@ -1,13 +1,11 @@
 ---
-title: 批量获取指数价格
+title: 批量指数价格
 position_number: 1.4
-type: post
+type:
 description:
 parameters:
   - name: title
     content: The title for the book
-  - name: score
-    content: The book's score between 0 and 5
 content_markdown: |-
   * **URL**：/open/market/api/v1/platform/swaps/index/list
   * **Method**：POST
