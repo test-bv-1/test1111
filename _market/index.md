@@ -6,10 +6,6 @@ parameters:
     content:
 content_markdown:
 right_code_blocks:
-  - code_block: >-
-      {"code":1,"desc":"success","topic":{"event":"SUB","type":"INDEX_PRICE_ALL","symbols":"BTC/USDT,ETH/USDT"}}
-    title: 订阅回执
-    language: json
   - code_block: |-
       {
         "symbol": "BTC/USDT",
@@ -18,6 +14,9 @@ right_code_blocks:
         "ts": 1650352557873
       }
     title: 增量回执
+    language: json
+  - code_block: "{\n\t\"code\": 1,\n\t\"desc\": \"success\",\n\t\"topic\": {\n\t\t\"event\": \"SUB\",\n\t\t\"type\": \"INDEX_PRICE_ALL\",\n\t\t\"symbols\": \"BTC/USDT,ETH/USDT\"\n\t}\n}"
+    title: 订阅回执
     language: json
 left_code_blocks:
   - code_block: "{\n\t\"event\": \"SUB\",\n\t\"type\": \"INDEX_PRICE\",\n\t\"symbol\": \"BTC/USDT\"\n}"
