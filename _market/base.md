@@ -13,7 +13,9 @@ content_markdown: |-
     * 客户端发送：**\{"event":"ping"\}**
     * 服务端回执：**\{"event":"pong"\}**
 left_code_blocks:
-  - code_block: |-
+  - code_block: |- 
+    title:
+    language:
 ---
 
 * 连接方式如下：
