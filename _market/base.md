@@ -10,17 +10,6 @@ content_markdown: |-
     * 连接方式：
     * Base Url：**wss://xxx.com/**
     * URL格式为&nbsp;**/usdt**
-left_code_blocks:
-  - code_block: |-
-      $.post("http://api.myapp.com/books/", {
-        "token": "YOUR_APP_KEY",
-        "title": "The Book Thief",
-        "score": 4.3
-      }, function(data) {
-        alert(data);
-      });
-    title: jQuery
-    language: javascript
 right_code_blocks:
   - code_block: |-
       {
