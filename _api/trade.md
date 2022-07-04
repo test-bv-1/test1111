@@ -1,6 +1,6 @@
 ---
 title: 最新价格
-position_number: 5
+position_number: 4
 type:
 description:
 parameters:
