@@ -1,6 +1,6 @@
 ---
-title: 批量指数价格
-position_number: 1.4
+title: 指数价格(批量)
+position_number: 1.1
 type:
 description:
 parameters:
