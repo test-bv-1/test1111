@@ -14,10 +14,6 @@ content_markdown: |-
 
   | 参数 | 类型 | 是否必填 | 描述 |
   | symbolArray | String\[\] | true | 币对 |
-left_code_blocks:
-  - code_block: curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
-    title: Curl
-    language: bash
 right_code_blocks:
   - code_block: "{\r\n\t\"symbolArray\": [\"BTC/USDT\",\"EOS/USDT\"]\r\n}"
     title: 请求示例
