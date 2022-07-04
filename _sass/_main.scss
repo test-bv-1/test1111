@@ -194,12 +194,12 @@ dl dd:after {
 	a {
 		color: #c1bdbd;
 		text-decoration: none;
-		font-size: .90em;
+		font-size: 15px;
 		display: block;
 		width: 100%;
 		text-overflow: ellipsis;
 		overflow: hidden;
-		padding: 2px 0;
+		padding: 3px 0;
 
 		&.active {
 			color: #2196F3;
