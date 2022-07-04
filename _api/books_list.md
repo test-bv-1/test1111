@@ -1,7 +1,7 @@
 ---
 title: 指数价格
-position_number: 3
-type: get
+position_number: 1
+type:
 description:
 parameters:
   - name: limit
