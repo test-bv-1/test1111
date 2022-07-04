@@ -16,10 +16,16 @@ timezone: Etc/UTC
 collections:
   market:
     title: Websocket 行情推送
-    position_number: 1
+    position_number: 3
   api:
-    title: APIs
+    title: 行情接口
     position_number: 2
+  trade:
+    title: 账户/交易
+    position_number: 1
+  capital:
+    title: 钱包
+    position_number: 4
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -49,7 +55,11 @@ defaults:
       type: "trade"
     values:
       _hide_content: true
-
+  -
+    scope:
+      type: "capital"
+    values:
+      _hide_content: true
 # -----------
 # CloudCannon
 
