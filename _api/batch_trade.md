@@ -1,6 +1,6 @@
 ---
-title: 批量24小时行情
-position_number: 3
+title: 24小时行情(批量)
+position_number: 3.1
 type:
 description:
 parameters:
