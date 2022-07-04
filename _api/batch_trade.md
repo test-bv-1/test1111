@@ -1,5 +1,5 @@
 ---
-title: 批量ticker
+title: 批量24小时行情
 position_number: 3
 type:
 description:

@@ -1,5 +1,5 @@
 ---
-title: ticker
+title: 24小时行情
 position_number: 3
 type:
 description:
