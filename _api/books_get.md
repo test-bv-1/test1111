@@ -14,15 +14,6 @@ content_markdown: |-
 
   | 参数 | 类型 | 是否必填 | 描述 |
   | symbol | String | true | 币对 |
-left_code_blocks:
-  - code_block: |-
-      $.get("http://api.myapp.com/books/3", {
-        token: "YOUR_APP_KEY",
-      }, function(data) {
-        alert(data);
-      });
-    title: jQuery
-    language: javascript
 right_code_blocks:
   - code_block: "{\r\n  \"code\": 1,\r\n  \"data\": {\r\n    \"symbol\": \"EOS/USDT\",//币对\r\n    \"bids\": [ //买单\r\n      [\r\n        \"1.999\",//价格\r\n        \"9592\"//数量\r\n      ]\r\n    ],\r\n    \"asks\": [//卖单\r\n      [\r\n        \"2.6\",\r\n        \"1\"\r\n      ],\r\n      [\r\n        \"2.55\",\r\n        \"4840\"\r\n      ]\r\n      \r\n    ]\r\n  },\r\n  \"message\": \"SUCCESS\"\r\n}"
     title: 响应
