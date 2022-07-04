@@ -44,6 +44,11 @@ defaults:
       type: "api"
     values:
       _hide_content: true
+  -
+    scope:
+      type: "trade"
+    values:
+      _hide_content: true
 
 # -----------
 # CloudCannon
