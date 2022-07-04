@@ -4,8 +4,8 @@ position_number: 1
 type:
 description:
 parameters:
-  - name: limit
-    content: Limit the number of books returned
+  - name:
+    content:
 content_markdown: |-
   * **URL**：/open/market/api/v1/platform/usdt/index?symbol=ETH/USDT
   * **Method**：GET
