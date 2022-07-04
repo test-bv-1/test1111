@@ -1,6 +1,6 @@
 ---
 title: 指数价格
-position_number: 3
+position_number: 1
 type:
 description:
 parameters:
@@ -12,8 +12,8 @@ content_markdown: |-
 
   请求参数
 
-  | 参数  | 类型  | 是否必填  | 描述 |
-  | symbol  | String  | true  | 币对 |
+  | 参数 | 类型 | 是否必填 | 描述 |
+  | symbol | String | true | 币对 |
 left_code_blocks:
   - code_block: curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
     title: Curl
