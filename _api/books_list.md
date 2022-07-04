@@ -14,10 +14,6 @@ content_markdown: |-
 
   | 参数 | 类型 | 是否必填 | 描述 |
   | symbol | String | true | 币对 |
-left_code_blocks:
-  - code_block: curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
-    title: Curl
-    language: bash
 right_code_blocks:
   - code_block: "{\r\n  \"code\": 1,\r\n  \"data\": {\r\n    \"symbol\": \"ETH/USDT\",//币对\r\n    \"indexPrice\": 2902.912//指数价格\r\n  },\r\n  \"message\": \"SUCCESS\"\r\n}"
     title: 响应
