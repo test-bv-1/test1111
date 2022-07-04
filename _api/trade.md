@@ -10,8 +10,6 @@ content_markdown: |-
   * **URL**：/open/market/api/v1/platform/usdt/ticker/last?symbol=EOS/USDT
   * **Method**：GET
 
-  ​
-
   请求参数
 
   | 参数 | 类型 | 是否必填 | 描述 |
