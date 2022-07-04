@@ -4,8 +4,8 @@ position_number: 3
 type:
 description:
 parameters:
-  - name: limit
-    content: Limit the number of books returned
+  - name:
+    content:
 content_markdown: |-
   * **URL**：/open/market/api/v1/platform/usdt/ticker?symbol=BTC/USDT
   * **Method**：GET
