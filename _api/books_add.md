@@ -1,6 +1,6 @@
 ---
 title: K线
-position_number: 1.1
+position_number: 2
 type:
 description:
 parameters:
@@ -19,8 +19,8 @@ content_markdown: >-
 
   | symbol | String | true | 币对 |
 
-  | type | Integer | true | 周期类型 :0 :1min ,1:5min, 2:15min ,3:15min ,4:30min
-  5:1hour ,7:4hour ,10:1day ,11 :1week,12:1month, 13:1year |
+  | type | Integer | true | 周期类型 :0 :1min ,2:5min ,3:15min ,4:30min 5:1hour
+  ,7:4hour ,10:1day ,11 :1week,12:1month, 13:1year\:1week,12:1month, 13:1year |
 
   | since | Long | true | k线开始时间戳精确到分钟(1650016682000) |
 
