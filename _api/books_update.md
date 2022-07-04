@@ -14,22 +14,6 @@ content_markdown: |-
 
   | 参数 | 类型 | 是否必填 | 描述 |
   | symbolArray | String\[\] | true | 币对 |
-left_code_blocks:
-  - code_block: |-
-      $.ajax({
-        "url": "http://api.myapp.com/books/3",
-        "type": "PUT",
-        "data": {
-          "token": "YOUR_APP_KEY",
-          "score": 5.0,
-          "title": "The Book Stealer"
-        },
-        "success": function(data) {
-          alert(data);
-        }
-      });
-    title: jQuery
-    language: javascript
 right_code_blocks:
   - code_block: "{\r\n\t\"symbolArray\": [\"BTC/USDT\",\"EOS/USDT\"]\r\n}"
     title: 请求示例
