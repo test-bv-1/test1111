@@ -19,10 +19,8 @@ right_code_blocks:
       {
         "code": 1,
         "data": {
-          "symbol": "ETH/USDT",//币对
-          "indexPrice": "2902.912"//指数价格
-        },
-        "message": "SUCCESS"
+         "orderId": 120821181//订单id
+        }
       }
     title: 响应
     language: json
