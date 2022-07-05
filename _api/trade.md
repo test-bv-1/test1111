@@ -4,8 +4,8 @@ position_number: 4
 type:
 description:
 parameters:
-  - name: title
-    content: The title for the book
+  - name:
+    content:
 content_markdown: |-
   * **URL**：/open/market/api/v1/platform/usdt/ticker/last?symbol=EOS/USDT
   * **Method**：GET
