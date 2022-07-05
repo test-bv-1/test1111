@@ -18,7 +18,21 @@ right_code_blocks:
   - code_block: "{\r\n\t\"symbolArray\": [\"BTC/USDT\",\"EOS/USDT\"]\r\n}"
     title: 请求示例
     language: json
-  - code_block: "{\r\n  \"code\": 1,\r\n  \"data\": [\r\n    {\r\n      \"symbol\": \"BTC/USDT\",\r\n      \"indexPrice\": 40781.23\r\n    },\r\n    {\r\n      \"symbol\": \"EOS/USDT\",\r\n      \"indexPrice\": 2.445\r\n    }\r\n  ],\r\n  \"message\": \"SUCCESS\"\r\n}"
+  - code_block: |-
+      {
+        "code": 1,
+        "data": [
+          {
+            "symbol": "BTC/USDT",
+            "indexPrice": "40781.23"
+          },
+          {
+            "symbol": "EOS/USDT",
+            "indexPrice": "2.445"
+          }
+        ],
+        "message": "SUCCESS"
+      }
     title: 响应
     language: json
   - code_block: "{\r\n  \"code\": 0,\r\n  \"data\": null,\r\n  \"message\": \"FAILURE\"\r\n}"
