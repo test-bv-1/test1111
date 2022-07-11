@@ -16,11 +16,5 @@ content_markdown: |-
       | 成功订阅 | \{"code":1,"desc":"success","type":"MARKET"\} |
       | 事件类型不存在 | \{"code":10001,"desc":"不存在的事件类型","type":"MARKET"\} |
       | 请求json格式错误 | \{"code":10000,"desc":"json格式错误","type":"MARKET"\} |
-
-  &nbsp;
-left_code_blocks:
-  - code_block:
-    title:
-    language:
 ---
 
