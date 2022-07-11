@@ -30,7 +30,7 @@ title: API Docs
 						</dl>
 				{% endif %}
 <!--				<div class="left-main">-->
-				{{ doc.content_markdown | markdownify | replace: "<dl>", "<h6>Parameters</h6><dl>" | replace: '“', '"' | replace: '”', '' }}
+				{{ doc.content_markdown | markdownify | replace: "<dl>", "<h6>Parameters</h6><dl>" | replace: '“', '"' | replace: '”', '"' }}
 <!--				</div>-->
 				{% if doc.left_code_blocks and doc.left_code_blocks[0].code_block %}
 						{% for block in doc.left_code_blocks %}
