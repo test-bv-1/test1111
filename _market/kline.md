@@ -6,6 +6,7 @@ parameters:
     content:
 content_markdown: |-
   periods:k线类型
+  {: .info}
 
   "1min":0
 
@@ -43,3 +44,4 @@ right_code_blocks:
     title: 响应
     language: json
 ---
+
