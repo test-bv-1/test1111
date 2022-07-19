@@ -7,7 +7,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  * **URL**：/open/market/api/v1/platform/usdt/realTime?symbol=EOS/USDT
+  * **URL**：/market/open/api/v1/platform/usdt/realTime?symbol=EOS/USDT
   * **Method**：GET
 
   请求参数
