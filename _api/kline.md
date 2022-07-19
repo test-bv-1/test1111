@@ -7,7 +7,7 @@ parameters:
   - name:
     content:
 content_markdown: >-
-  * **URL**：/open/market/api/v1/platform/usdt/kline
+  * **URL**：/market/open/api/v1/platform/usdt/kline
 
   * **Method**：GET
 
